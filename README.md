@@ -14,7 +14,7 @@ This service provides a `/cities` endpoint that fetches a list of polluted citie
 ## How to Run Locally
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/jb3008/pollution_data_api
 cd polluted-cities-api
 npm install
 npm start

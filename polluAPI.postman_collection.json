@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "871050eb-a983-40d7-acd6-a897f500fb75",
+		"name": "polluAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "1347441"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/cities?country=France",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "testpass",
+						"username": "testuser"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cities?country=France",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cities"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "France"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
